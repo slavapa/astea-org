@@ -771,7 +771,7 @@ $settings['entity_update_batch_size'] = 50;
 $databases['default']['default'] = array (
   'database' => 'c9',
   'username' => 'root',
-  'password' => '',
+  'password' => 'xxxxxx',
   'prefix' => '',
   'host' => '0.0.0.0',
   'port' => '3306',
@@ -779,3 +779,9 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config_directories['sync'] = 'sites/default/files/config_D240glVjy-zPtvI-j6rlYoR_XbSjIaqnGyPm7Z0xFkZyxKN1ThteetGC7uQ_ivP89x3NR8GD9A/sync';
+
+
+$settings['trusted_host_patterns'] = array(
+'^www\.astea-org-slavapa.c9users.io$',
+'^astea-org-slavapa.c9users.io$',
+);
